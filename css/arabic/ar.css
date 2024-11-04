@@ -1,0 +1,128 @@
+.slide,.slick-slider,
+.slider,.slick-current,.slick-active
+{direction: ltr !important;}
+[dir=rtl] .slick-slide{float: left !important;}
+
+.text-nav,.relative-button,.Poppins-regular {    
+    font-family: 'Tajawal Regular';
+}
+.Poppins-bold,.Poppins-SemiBold{
+    font-family: 'Tajawal Bold';
+}
+.hamburger{left: 20px; right: auto;direction: ltr;}
+.nav-mobile {
+  left: auto;
+  right: -295px;
+}
+.sidenav-active nav, .sidenav-active .coverNav {
+    transform: translateX(-295px);
+}
+/* ***************************************************** */
+
+.section-contact .section-contact-conatiner {
+  padding-left: 30px;
+  padding-right: 90px;
+}
+.page-contact .section-contact-conatiner{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.page-contact{padding-left: 0px;}
+footer .footer-container .footer-fx .footer-links a,
+footer .footer-container .footer-fx .footer-contactInfo span{font-size: 18px;}
+.pagination button img{
+    transform: rotate(180deg);
+}
+@media (max-width:1400px) {
+    .text-nav,
+    .nav-last-div .btn-contact,
+    .relative-button .dropdown-lang span{ font-size: 1.18rem;}
+    .navbar-scrollPage .text-nav{ font-size: 1.12rem;}
+}
+@media (max-width:1300px) {
+    .text-nav,
+    .nav-last-div .btn-contact,
+    .relative-button .dropdown-lang span{ font-size: 1rem;}
+    .navbar-scrollPage .text-nav{ font-size: 0.95rem;}
+}
+@media (max-width:1150px) {
+    .text-nav,
+    .relative-button .dropdown-lang span{ font-size: .9rem;}
+    .navbar-scrollPage .text-nav{ font-size: 0.72rem;}
+    .nav-last-div .btn-contact{font-size: 1.1rem;}
+}
+@media (max-width:1000px) {
+  .section-contact .section-contact-conatiner{padding-left: 20px;padding-right: 20px;}
+    footer .footer-container .footer-fx .footer-contactInfo h5{font-size: 24px;}
+    .relative-button .dropdown-lang span{font-size: 1.2rem;}
+.section-contact .section-contact-conatiner .fx-contact{padding: 0px;}
+}
+@media (min-width:1700px) {
+        .text-nav,
+    .nav-last-div .btn-contact,
+    .relative-button .dropdown-lang span{ font-size: 1.39rem;}
+    .navbar-scrollPage .text-nav{ font-size: 1.39rem;}
+}
+@media (min-width:1710px) {
+    .nav-last-div .btn-contact,
+    .relative-button .dropdown-lang span{ font-size: 1.59rem;}
+    .navbar-scrollPage .text-nav{ font-size: 1.65rem;}
+    .nav-width .menu-links ul{gap: 24px;}
+    .text-nav { font-size: 1.59rem;}
+}
+@media (min-width:2000px) {
+    .text-nav,
+    .nav-last-div .btn-contact,
+    .relative-button .dropdown-lang span{ font-size: 1.75rem;}
+    .navbar-scrollPage .text-nav{ font-size: 1.75rem;}
+}
+
+/* شش */
+.section-markting .round-markting {
+    right: 4.5rem;
+    left: auto;
+    transform: rotate(-270deg);
+}
+.section-about .circle-about {
+    left: 0rem;
+    right: auto;
+}
+.section-services .arrows-section-slider {
+    left: 0;
+    right: auto;
+    direction: ltr;
+}
+.fx-section-feedback .arrows-section-slider {
+    left: 7%;
+    right: auto;
+    direction: ltr;
+}
+.section-feedback .slide-feedback .fx-slide-feedback2{direction: rtl;}
+.fx-services-cards{direction: rtl;}
+.section-locations-container {
+    padding-left: 0px;
+    padding-right: 117px;
+}
+@media (max-width:1050px) {
+    .section-locations-container {
+        padding-left: 0px;
+    }
+    .section-markting h2 {
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+     .section-markting .round-markting {
+        right: 0rem;
+        left: auto;
+    }
+    .section-locations .fx-location-texts {
+        width: 100%;
+        padding-right: 20px;
+    }
+}
+@media (max-width:1000px) {
+    .section-locations-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}

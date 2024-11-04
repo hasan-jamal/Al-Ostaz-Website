@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Al-Ostaz Website</title>
-    <link rel="icon" href="./images/logo.svg">
+    <link rel="icon" href="../images/logo.svg">
     <!---Style CSS-->
-    <link rel="stylesheet" href="./css/general.css">
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/arabic/ar.css">
     <!---font awesome 5.12 Light-->
-    <link rel="stylesheet" href="./icons/all.min.css">
-    <link rel="stylesheet" href="./icons/light.min.css">
+    <link rel="stylesheet" href="../icons/all.min.css">
+    <link rel="stylesheet" href="../icons/light.min.css">
     <!---Bootstrap 5 CSS && JS-->
-    <link rel="stylesheet" href="./css/bootstrap5.2.3/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap5.2.3/bootstrap.min.css">
     <!-- Slick Slider -->
-    <link rel="stylesheet" href="./css/slick slider/animate.min.css">
-    <link rel="stylesheet" href="./css/slick slider/slick.min.css">
-    <link rel="stylesheet" href="./css/slick slider/slider.css">
+    <link rel="stylesheet" href="../css/slick slider/animate.min.css">
+    <link rel="stylesheet" href="../css/slick slider/slick.min.css">
+    <link rel="stylesheet" href="../css/slick slider/slider.css">
     <!-- Include Slick CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
@@ -36,11 +37,11 @@
                 <div class="div2"></div>
                 <div class="div3"></div>
             </div>
-            <img onclick="window.location.href='index.html'" src="./images/logo.svg" class="logo-image" />
+            <img onclick="window.location.href='index.html'" src="../images/logo.svg" class="logo-image" />
         </div>
         <nav class="nav-mobile">
             <div class="links">
-                <img onclick="window.location.href='index.html'" src="./images/logo.svg" class="logo-img" />
+                <img onclick="window.location.href='index.html'" src="../images/logo.svg" class="logo-img" />
                 <a href="./index.html" class="text-nav active-nav">Home</a>
                 <a href="./services.html" class="text-nav">Services</a>
                 <a href="./scenes.html" class="text-nav">Behind The Scenes</a>
@@ -56,10 +57,10 @@
                     <button class="dropdown-lang w-100">
                         <div class="d-flex align-items-center justify-content-between w-100">
                             <div class="d-flex align-items-center justify-content-start w-100 fx-lang-mb">
-                                <img src="./images/lang.svg" alt="language icon" class="lang-icon">
+                                <img src="../images/lang.svg" alt="language icon" class="lang-icon">
                                 <span class="text-24size">En</span>
                             </div>
-                            <img src="./images/arrow-lang.svg" alt="arrow" class="arrow-lang">
+                            <img src="../images/arrow-lang.svg" alt="arrow" class="arrow-lang">
                         </div>
                     </button>
                     <div class="dropdown-menu-lang">
@@ -67,7 +68,7 @@
                             asp-route-returnUrl="@returnUrl" method="post" class="form-horizontal" role="form">
                             <input type="hidden" name="culture" id="culture" value="ar" />
                             <div class="d-flex align-items-center justify-content-between fx-lang-button">
-                                <button type="button" onclick="window.location.href='./arabic-pages/ourWork.html'"
+                                <button type="button" onclick="window.location.href='../ourWork.html'"
                                     class="dropdown-mb">
                                     <span class="text-24size">Ar</span>
                                 </button>
@@ -81,7 +82,7 @@
         <nav id="navbar" class="navbar-st nav-width">
             <div class="fx-space-nav1">
                 <div class="nav-logo" onclick="window.location.href='index.html'">
-                    <img src="./images/logo.svg" alt="logo">
+                    <img src="../images/logo.svg" alt="logo">
                 </div>
                 <div class="menu-links">
                     <ul>
@@ -101,16 +102,16 @@
                     Us</button>
                 <div class="relative-button">
                     <button class="dropdown-lang">
-                        <img src="./images/lang.svg" alt="language icon" class="lang-icon">
+                        <img src="../images/lang.svg" alt="language icon" class="lang-icon">
                         <span class="text-24size">En</span>
-                        <img src="./images/arrow-lang.svg" alt="arrow" class="arrow-lang">
+                        <img src="../images/arrow-lang.svg" alt="arrow" class="arrow-lang">
                     </button>
                     <div class="dropdown-menu-lang">
                         <form id="selectLanguage" asp-area="" asp-controller="Home" asp-action="SetLanguage"
                             asp-route-returnUrl="@returnUrl" method="post" class="form-horizontal" role="form">
                             <input type="hidden" name="culture" id="culture" value="ar" />
                             <div class="d-flex align-items-center justify-content-between fx-lang-button">
-                                <button type="button" onclick="window.location.href='./arabic-pages/ourWork.html'"
+                                <button type="button" onclick="window.location.href='../ourWork.html'"
                                     class="dropdown-mb">
                                     <span class="text-24size">Ar</span>
                                 </button>
@@ -147,25 +148,25 @@
                             <div class="card-ourWork">
                                 <div class="slider-ourWork">
                                     <div class="slides-ourWork">
-                                        <img src="./images/work1.svg" alt="work" class="work-image">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
-                                        <img src="./images/work3.svg" alt="work" class="work-image">
-                                        <img src="./images/work4.svg" alt="work" class="work-image">
-                                        <img src="./images/work5.svg" alt="work" class="work-image">
+                                        <img src="../images/work1.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work3.svg" alt="work" class="work-image">
+                                        <img src="../images/work4.svg" alt="work" class="work-image">
+                                        <img src="../images/work5.svg" alt="work" class="work-image">
                                     </div>
                                     <div class="arrows-slider-ourWork">
-                                        <img src="./images/left-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/left-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-left">
-                                        <img src="./images/right-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/right-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-right">
                                     </div>
                                     <div class="liks-slider-ourWork">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-one">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-two">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-one">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-two">
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center fx-company-work">
-                                    <img src="./images/company6.svg" alt="image-company" class="image-company-work">
+                                    <img src="../images/company6.svg" alt="image-company" class="image-company-work">
                                     <h3 class="Poppins-SemiBold">Company Name Goes Here </h4>
                                 </div>
                                 <h4 class="Poppins-bold">Product Photography For Amjad Yo...</h4>
@@ -175,25 +176,25 @@
                             <div class="card-ourWork">
                                 <div class="slider-ourWork">
                                     <div class="slides-ourWork">
-                                        <img src="./images/work3.svg" alt="work" class="work-image">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
-                                        <img src="./images/work4.svg" alt="work" class="work-image">
-                                        <img src="./images/work5.svg" alt="work" class="work-image">
+                                        <img src="../images/work3.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work4.svg" alt="work" class="work-image">
+                                        <img src="../images/work5.svg" alt="work" class="work-image">
                                     </div>
                                     <div class="arrows-slider-ourWork">
-                                        <img src="./images/left-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/left-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-left">
-                                        <img src="./images/right-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/right-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-right">
                                     </div>
                                     <div class="liks-slider-ourWork">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-one">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-two">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-one">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-two">
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center fx-company-work">
-                                    <img src="./images/company6.svg" alt="image-company" class="image-company-work">
+                                    <img src="../images/company6.svg" alt="image-company" class="image-company-work">
                                     <h3 class="Poppins-SemiBold">Company Name Goes Here </h4>
                                 </div>
                                 <h4 class="Poppins-bold">Product Photography For Amjad Yo...</h4>
@@ -203,25 +204,25 @@
                             <div class="card-ourWork">
                                 <div class="slider-ourWork">
                                     <div class="slides-ourWork">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
-                                        <img src="./images/work1.svg" alt="work" class="work-image">
-                                        <img src="./images/work3.svg" alt="work" class="work-image">
-                                        <img src="./images/work4.svg" alt="work" class="work-image">
-                                        <img src="./images/work5.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work1.svg" alt="work" class="work-image">
+                                        <img src="../images/work3.svg" alt="work" class="work-image">
+                                        <img src="../images/work4.svg" alt="work" class="work-image">
+                                        <img src="../images/work5.svg" alt="work" class="work-image">
                                     </div>
                                     <div class="arrows-slider-ourWork">
-                                        <img src="./images/left-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/left-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-left">
-                                        <img src="./images/right-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/right-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-right">
                                     </div>
                                     <div class="liks-slider-ourWork">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-one">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-two">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-one">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-two">
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center fx-company-work">
-                                    <img src="./images/company6.svg" alt="image-company" class="image-company-work">
+                                    <img src="../images/company6.svg" alt="image-company" class="image-company-work">
                                     <h3 class="Poppins-SemiBold">Company Name Goes Here </h4>
                                 </div>
                                 <h4 class="Poppins-bold">Product Photography For Amjad Yo...</h4>
@@ -231,25 +232,25 @@
                             <div class="card-ourWork">
                                 <div class="slider-ourWork">
                                     <div class="slides-ourWork">
-                                        <img src="./images/work4.svg" alt="work" class="work-image">
-                                        <img src="./images/work5.svg" alt="work" class="work-image">
-                                        <img src="./images/work3.svg" alt="work" class="work-image">
-                                        <img src="./images/work1.svg" alt="work" class="work-image">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work4.svg" alt="work" class="work-image">
+                                        <img src="../images/work5.svg" alt="work" class="work-image">
+                                        <img src="../images/work3.svg" alt="work" class="work-image">
+                                        <img src="../images/work1.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
                                     </div>
                                     <div class="arrows-slider-ourWork">
-                                        <img src="./images/left-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/left-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-left">
-                                        <img src="./images/right-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/right-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-right">
                                     </div>
                                     <div class="liks-slider-ourWork">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-one">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-two">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-one">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-two">
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center fx-company-work">
-                                    <img src="./images/company6.svg" alt="image-company" class="image-company-work">
+                                    <img src="../images/company6.svg" alt="image-company" class="image-company-work">
                                     <h3 class="Poppins-SemiBold">Company Name Goes Here </h4>
                                 </div>
                                 <h4 class="Poppins-bold">Product Photography For Amjad Yo...</h4>
@@ -259,25 +260,25 @@
                             <div class="card-ourWork">
                                 <div class="slider-ourWork">
                                     <div class="slides-ourWork">
-                                        <img src="./images/work5.svg" alt="work" class="work-image">
-                                        <img src="./images/work4.svg" alt="work" class="work-image">
-                                        <img src="./images/work3.svg" alt="work" class="work-image">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
-                                        <img src="./images/work1.svg" alt="work" class="work-image">
+                                        <img src="../images/work5.svg" alt="work" class="work-image">
+                                        <img src="../images/work4.svg" alt="work" class="work-image">
+                                        <img src="../images/work3.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work1.svg" alt="work" class="work-image">
                                     </div>
                                     <div class="arrows-slider-ourWork">
-                                        <img src="./images/left-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/left-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-left">
-                                        <img src="./images/right-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/right-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-right">
                                     </div>
                                     <div class="liks-slider-ourWork">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-one">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-two">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-one">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-two">
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center fx-company-work">
-                                    <img src="./images/company6.svg" alt="image-company" class="image-company-work">
+                                    <img src="../images/company6.svg" alt="image-company" class="image-company-work">
                                     <h3 class="Poppins-SemiBold">Company Name Goes Here </h4>
                                 </div>
                                 <h4 class="Poppins-bold">Product Photography For Amjad Yo...</h4>
@@ -286,12 +287,12 @@
                             </div>
                         </div>
                         <div class="pagination">
-                            <button><img src="./images/arrow-left-pageination.svg" alt="pageination"></button>
+                            <button><img src="../images/arrow-left-pageination.svg" alt="pageination"></button>
                             <button class="active">1</button>
                             <button>2</button>
                             <button>3</button>
                             <button>4</button>
-                            <button><img src="./images/arrow-right-pageination.svg" alt="pageination"></button>
+                            <button><img src="../images/arrow-right-pageination.svg" alt="pageination"></button>
                         </div>
                     </div>
                     <div class="tab-pane" id="graphic-design">
@@ -299,25 +300,25 @@
                             <div class="card-ourWork">
                                 <div class="slider-ourWork">
                                     <div class="slides-ourWork">
-                                        <img src="./images/work1.svg" alt="work" class="work-image">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
-                                        <img src="./images/work3.svg" alt="work" class="work-image">
-                                        <img src="./images/work4.svg" alt="work" class="work-image">
-                                        <img src="./images/work5.svg" alt="work" class="work-image">
+                                        <img src="../images/work1.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work3.svg" alt="work" class="work-image">
+                                        <img src="../images/work4.svg" alt="work" class="work-image">
+                                        <img src="../images/work5.svg" alt="work" class="work-image">
                                     </div>
                                     <div class="arrows-slider-ourWork">
-                                        <img src="./images/left-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/left-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-left">
-                                        <img src="./images/right-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/right-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-right">
                                     </div>
                                     <div class="liks-slider-ourWork">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-one">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-two">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-one">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-two">
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center fx-company-work">
-                                    <img src="./images/company6.svg" alt="image-company" class="image-company-work">
+                                    <img src="../images/company6.svg" alt="image-company" class="image-company-work">
                                     <h3 class="Poppins-SemiBold">Company Name Goes Here </h4>
                                 </div>
                                 <h4 class="Poppins-bold">Product Photography For Amjad Yo...</h4>
@@ -327,25 +328,25 @@
                             <div class="card-ourWork">
                                 <div class="slider-ourWork">
                                     <div class="slides-ourWork">
-                                        <img src="./images/work3.svg" alt="work" class="work-image">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
-                                        <img src="./images/work4.svg" alt="work" class="work-image">
-                                        <img src="./images/work5.svg" alt="work" class="work-image">
+                                        <img src="../images/work3.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work4.svg" alt="work" class="work-image">
+                                        <img src="../images/work5.svg" alt="work" class="work-image">
                                     </div>
                                     <div class="arrows-slider-ourWork">
-                                        <img src="./images/left-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/left-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-left">
-                                        <img src="./images/right-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/right-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-right">
                                     </div>
                                     <div class="liks-slider-ourWork">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-one">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-two">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-one">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-two">
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center fx-company-work">
-                                    <img src="./images/company6.svg" alt="image-company" class="image-company-work">
+                                    <img src="../images/company6.svg" alt="image-company" class="image-company-work">
                                     <h3 class="Poppins-SemiBold">Company Name Goes Here </h4>
                                 </div>
                                 <h4 class="Poppins-bold">Product Photography For Amjad Yo...</h4>
@@ -355,25 +356,25 @@
                             <div class="card-ourWork">
                                 <div class="slider-ourWork">
                                     <div class="slides-ourWork">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
-                                        <img src="./images/work1.svg" alt="work" class="work-image">
-                                        <img src="./images/work3.svg" alt="work" class="work-image">
-                                        <img src="./images/work4.svg" alt="work" class="work-image">
-                                        <img src="./images/work5.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work1.svg" alt="work" class="work-image">
+                                        <img src="../images/work3.svg" alt="work" class="work-image">
+                                        <img src="../images/work4.svg" alt="work" class="work-image">
+                                        <img src="../images/work5.svg" alt="work" class="work-image">
                                     </div>
                                     <div class="arrows-slider-ourWork">
-                                        <img src="./images/left-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/left-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-left">
-                                        <img src="./images/right-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/right-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-right">
                                     </div>
                                     <div class="liks-slider-ourWork">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-one">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-two">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-one">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-two">
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center fx-company-work">
-                                    <img src="./images/company6.svg" alt="image-company" class="image-company-work">
+                                    <img src="../images/company6.svg" alt="image-company" class="image-company-work">
                                     <h3 class="Poppins-SemiBold">Company Name Goes Here </h4>
                                 </div>
                                 <h4 class="Poppins-bold">Product Photography For Amjad Yo...</h4>
@@ -383,25 +384,25 @@
                             <div class="card-ourWork">
                                 <div class="slider-ourWork">
                                     <div class="slides-ourWork">
-                                        <img src="./images/work4.svg" alt="work" class="work-image">
-                                        <img src="./images/work5.svg" alt="work" class="work-image">
-                                        <img src="./images/work3.svg" alt="work" class="work-image">
-                                        <img src="./images/work1.svg" alt="work" class="work-image">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work4.svg" alt="work" class="work-image">
+                                        <img src="../images/work5.svg" alt="work" class="work-image">
+                                        <img src="../images/work3.svg" alt="work" class="work-image">
+                                        <img src="../images/work1.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
                                     </div>
                                     <div class="arrows-slider-ourWork">
-                                        <img src="./images/left-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/left-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-left">
-                                        <img src="./images/right-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/right-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-right">
                                     </div>
                                     <div class="liks-slider-ourWork">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-one">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-two">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-one">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-two">
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center fx-company-work">
-                                    <img src="./images/company6.svg" alt="image-company" class="image-company-work">
+                                    <img src="../images/company6.svg" alt="image-company" class="image-company-work">
                                     <h3 class="Poppins-SemiBold">Company Name Goes Here </h4>
                                 </div>
                                 <h4 class="Poppins-bold">Product Photography For Amjad Yo...</h4>
@@ -411,25 +412,25 @@
                             <div class="card-ourWork">
                                 <div class="slider-ourWork">
                                     <div class="slides-ourWork">
-                                        <img src="./images/work5.svg" alt="work" class="work-image">
-                                        <img src="./images/work4.svg" alt="work" class="work-image">
-                                        <img src="./images/work3.svg" alt="work" class="work-image">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
-                                        <img src="./images/work1.svg" alt="work" class="work-image">
+                                        <img src="../images/work5.svg" alt="work" class="work-image">
+                                        <img src="../images/work4.svg" alt="work" class="work-image">
+                                        <img src="../images/work3.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work1.svg" alt="work" class="work-image">
                                     </div>
                                     <div class="arrows-slider-ourWork">
-                                        <img src="./images/left-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/left-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-left">
-                                        <img src="./images/right-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/right-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-right">
                                     </div>
                                     <div class="liks-slider-ourWork">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-one">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-two">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-one">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-two">
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center fx-company-work">
-                                    <img src="./images/company6.svg" alt="image-company" class="image-company-work">
+                                    <img src="../images/company6.svg" alt="image-company" class="image-company-work">
                                     <h3 class="Poppins-SemiBold">Company Name Goes Here </h4>
                                 </div>
                                 <h4 class="Poppins-bold">Product Photography For Amjad Yo...</h4>
@@ -438,12 +439,12 @@
                             </div>
                         </div>
                         <div class="pagination">
-                            <button><img src="./images/arrow-left-pageination.svg" alt="pageination"></button>
+                            <button><img src="../images/arrow-left-pageination.svg" alt="pageination"></button>
                             <button class="active">1</button>
                             <button>2</button>
                             <button>3</button>
                             <button>4</button>
-                            <button><img src="./images/arrow-right-pageination.svg" alt="pageination"></button>
+                            <button><img src="../images/arrow-right-pageination.svg" alt="pageination"></button>
                         </div>
                     </div>
                     <div class="tab-pane" id="motion-graphics">
@@ -451,25 +452,25 @@
                             <div class="card-ourWork">
                                 <div class="slider-ourWork">
                                     <div class="slides-ourWork">
-                                        <img src="./images/work1.svg" alt="work" class="work-image">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
-                                        <img src="./images/work3.svg" alt="work" class="work-image">
-                                        <img src="./images/work4.svg" alt="work" class="work-image">
-                                        <img src="./images/work5.svg" alt="work" class="work-image">
+                                        <img src="../images/work1.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work3.svg" alt="work" class="work-image">
+                                        <img src="../images/work4.svg" alt="work" class="work-image">
+                                        <img src="../images/work5.svg" alt="work" class="work-image">
                                     </div>
                                     <div class="arrows-slider-ourWork">
-                                        <img src="./images/left-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/left-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-left">
-                                        <img src="./images/right-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/right-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-right">
                                     </div>
                                     <div class="liks-slider-ourWork">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-one">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-two">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-one">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-two">
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center fx-company-work">
-                                    <img src="./images/company6.svg" alt="image-company" class="image-company-work">
+                                    <img src="../images/company6.svg" alt="image-company" class="image-company-work">
                                     <h3 class="Poppins-SemiBold">Company Name Goes Here </h4>
                                 </div>
                                 <h4 class="Poppins-bold">Product Photography For Amjad Yo...</h4>
@@ -479,25 +480,25 @@
                             <div class="card-ourWork">
                                 <div class="slider-ourWork">
                                     <div class="slides-ourWork">
-                                        <img src="./images/work3.svg" alt="work" class="work-image">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
-                                        <img src="./images/work4.svg" alt="work" class="work-image">
-                                        <img src="./images/work5.svg" alt="work" class="work-image">
+                                        <img src="../images/work3.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work4.svg" alt="work" class="work-image">
+                                        <img src="../images/work5.svg" alt="work" class="work-image">
                                     </div>
                                     <div class="arrows-slider-ourWork">
-                                        <img src="./images/left-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/left-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-left">
-                                        <img src="./images/right-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/right-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-right">
                                     </div>
                                     <div class="liks-slider-ourWork">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-one">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-two">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-one">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-two">
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center fx-company-work">
-                                    <img src="./images/company6.svg" alt="image-company" class="image-company-work">
+                                    <img src="../images/company6.svg" alt="image-company" class="image-company-work">
                                     <h3 class="Poppins-SemiBold">Company Name Goes Here </h4>
                                 </div>
                                 <h4 class="Poppins-bold">Product Photography For Amjad Yo...</h4>
@@ -507,25 +508,25 @@
                             <div class="card-ourWork">
                                 <div class="slider-ourWork">
                                     <div class="slides-ourWork">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
-                                        <img src="./images/work1.svg" alt="work" class="work-image">
-                                        <img src="./images/work3.svg" alt="work" class="work-image">
-                                        <img src="./images/work4.svg" alt="work" class="work-image">
-                                        <img src="./images/work5.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work1.svg" alt="work" class="work-image">
+                                        <img src="../images/work3.svg" alt="work" class="work-image">
+                                        <img src="../images/work4.svg" alt="work" class="work-image">
+                                        <img src="../images/work5.svg" alt="work" class="work-image">
                                     </div>
                                     <div class="arrows-slider-ourWork">
-                                        <img src="./images/left-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/left-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-left">
-                                        <img src="./images/right-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/right-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-right">
                                     </div>
                                     <div class="liks-slider-ourWork">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-one">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-two">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-one">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-two">
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center fx-company-work">
-                                    <img src="./images/company6.svg" alt="image-company" class="image-company-work">
+                                    <img src="../images/company6.svg" alt="image-company" class="image-company-work">
                                     <h3 class="Poppins-SemiBold">Company Name Goes Here </h4>
                                 </div>
                                 <h4 class="Poppins-bold">Product Photography For Amjad Yo...</h4>
@@ -535,25 +536,25 @@
                             <div class="card-ourWork">
                                 <div class="slider-ourWork">
                                     <div class="slides-ourWork">
-                                        <img src="./images/work4.svg" alt="work" class="work-image">
-                                        <img src="./images/work5.svg" alt="work" class="work-image">
-                                        <img src="./images/work3.svg" alt="work" class="work-image">
-                                        <img src="./images/work1.svg" alt="work" class="work-image">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work4.svg" alt="work" class="work-image">
+                                        <img src="../images/work5.svg" alt="work" class="work-image">
+                                        <img src="../images/work3.svg" alt="work" class="work-image">
+                                        <img src="../images/work1.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
                                     </div>
                                     <div class="arrows-slider-ourWork">
-                                        <img src="./images/left-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/left-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-left">
-                                        <img src="./images/right-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/right-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-right">
                                     </div>
                                     <div class="liks-slider-ourWork">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-one">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-two">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-one">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-two">
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center fx-company-work">
-                                    <img src="./images/company6.svg" alt="image-company" class="image-company-work">
+                                    <img src="../images/company6.svg" alt="image-company" class="image-company-work">
                                     <h3 class="Poppins-SemiBold">Company Name Goes Here </h4>
                                 </div>
                                 <h4 class="Poppins-bold">Product Photography For Amjad Yo...</h4>
@@ -563,25 +564,25 @@
                             <div class="card-ourWork">
                                 <div class="slider-ourWork">
                                     <div class="slides-ourWork">
-                                        <img src="./images/work5.svg" alt="work" class="work-image">
-                                        <img src="./images/work4.svg" alt="work" class="work-image">
-                                        <img src="./images/work3.svg" alt="work" class="work-image">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
-                                        <img src="./images/work1.svg" alt="work" class="work-image">
+                                        <img src="../images/work5.svg" alt="work" class="work-image">
+                                        <img src="../images/work4.svg" alt="work" class="work-image">
+                                        <img src="../images/work3.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work1.svg" alt="work" class="work-image">
                                     </div>
                                     <div class="arrows-slider-ourWork">
-                                        <img src="./images/left-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/left-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-left">
-                                        <img src="./images/right-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/right-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-right">
                                     </div>
                                     <div class="liks-slider-ourWork">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-one">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-two">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-one">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-two">
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center fx-company-work">
-                                    <img src="./images/company6.svg" alt="image-company" class="image-company-work">
+                                    <img src="../images/company6.svg" alt="image-company" class="image-company-work">
                                     <h3 class="Poppins-SemiBold">Company Name Goes Here </h4>
                                 </div>
                                 <h4 class="Poppins-bold">Product Photography For Amjad Yo...</h4>
@@ -590,12 +591,12 @@
                             </div>
                         </div>
                         <div class="pagination">
-                            <button><img src="./images/arrow-left-pageination.svg" alt="pageination"></button>
+                            <button><img src="../images/arrow-left-pageination.svg" alt="pageination"></button>
                             <button class="active">1</button>
                             <button>2</button>
                             <button>3</button>
                             <button>4</button>
-                            <button><img src="./images/arrow-right-pageination.svg" alt="pageination"></button>
+                            <button><img src="../images/arrow-right-pageination.svg" alt="pageination"></button>
                         </div>
                     </div>
                     <div class="tab-pane" id="graphic-photography">
@@ -603,25 +604,25 @@
                             <div class="card-ourWork">
                                 <div class="slider-ourWork">
                                     <div class="slides-ourWork">
-                                        <img src="./images/work1.svg" alt="work" class="work-image">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
-                                        <img src="./images/work3.svg" alt="work" class="work-image">
-                                        <img src="./images/work4.svg" alt="work" class="work-image">
-                                        <img src="./images/work5.svg" alt="work" class="work-image">
+                                        <img src="../images/work1.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work3.svg" alt="work" class="work-image">
+                                        <img src="../images/work4.svg" alt="work" class="work-image">
+                                        <img src="../images/work5.svg" alt="work" class="work-image">
                                     </div>
                                     <div class="arrows-slider-ourWork">
-                                        <img src="./images/left-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/left-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-left">
-                                        <img src="./images/right-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/right-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-right">
                                     </div>
                                     <div class="liks-slider-ourWork">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-one">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-two">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-one">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-two">
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center fx-company-work">
-                                    <img src="./images/company6.svg" alt="image-company" class="image-company-work">
+                                    <img src="../images/company6.svg" alt="image-company" class="image-company-work">
                                     <h3 class="Poppins-SemiBold">Company Name Goes Here </h4>
                                 </div>
                                 <h4 class="Poppins-bold">Product Photography For Amjad Yo...</h4>
@@ -631,25 +632,25 @@
                             <div class="card-ourWork">
                                 <div class="slider-ourWork">
                                     <div class="slides-ourWork">
-                                        <img src="./images/work3.svg" alt="work" class="work-image">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
-                                        <img src="./images/work4.svg" alt="work" class="work-image">
-                                        <img src="./images/work5.svg" alt="work" class="work-image">
+                                        <img src="../images/work3.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work4.svg" alt="work" class="work-image">
+                                        <img src="../images/work5.svg" alt="work" class="work-image">
                                     </div>
                                     <div class="arrows-slider-ourWork">
-                                        <img src="./images/left-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/left-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-left">
-                                        <img src="./images/right-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/right-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-right">
                                     </div>
                                     <div class="liks-slider-ourWork">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-one">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-two">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-one">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-two">
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center fx-company-work">
-                                    <img src="./images/company6.svg" alt="image-company" class="image-company-work">
+                                    <img src="../images/company6.svg" alt="image-company" class="image-company-work">
                                     <h3 class="Poppins-SemiBold">Company Name Goes Here </h4>
                                 </div>
                                 <h4 class="Poppins-bold">Product Photography For Amjad Yo...</h4>
@@ -659,25 +660,25 @@
                             <div class="card-ourWork">
                                 <div class="slider-ourWork">
                                     <div class="slides-ourWork">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
-                                        <img src="./images/work1.svg" alt="work" class="work-image">
-                                        <img src="./images/work3.svg" alt="work" class="work-image">
-                                        <img src="./images/work4.svg" alt="work" class="work-image">
-                                        <img src="./images/work5.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work1.svg" alt="work" class="work-image">
+                                        <img src="../images/work3.svg" alt="work" class="work-image">
+                                        <img src="../images/work4.svg" alt="work" class="work-image">
+                                        <img src="../images/work5.svg" alt="work" class="work-image">
                                     </div>
                                     <div class="arrows-slider-ourWork">
-                                        <img src="./images/left-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/left-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-left">
-                                        <img src="./images/right-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/right-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-right">
                                     </div>
                                     <div class="liks-slider-ourWork">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-one">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-two">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-one">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-two">
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center fx-company-work">
-                                    <img src="./images/company6.svg" alt="image-company" class="image-company-work">
+                                    <img src="../images/company6.svg" alt="image-company" class="image-company-work">
                                     <h3 class="Poppins-SemiBold">Company Name Goes Here </h4>
                                 </div>
                                 <h4 class="Poppins-bold">Product Photography For Amjad Yo...</h4>
@@ -687,25 +688,25 @@
                             <div class="card-ourWork">
                                 <div class="slider-ourWork">
                                     <div class="slides-ourWork">
-                                        <img src="./images/work4.svg" alt="work" class="work-image">
-                                        <img src="./images/work5.svg" alt="work" class="work-image">
-                                        <img src="./images/work3.svg" alt="work" class="work-image">
-                                        <img src="./images/work1.svg" alt="work" class="work-image">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work4.svg" alt="work" class="work-image">
+                                        <img src="../images/work5.svg" alt="work" class="work-image">
+                                        <img src="../images/work3.svg" alt="work" class="work-image">
+                                        <img src="../images/work1.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
                                     </div>
                                     <div class="arrows-slider-ourWork">
-                                        <img src="./images/left-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/left-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-left">
-                                        <img src="./images/right-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/right-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-right">
                                     </div>
                                     <div class="liks-slider-ourWork">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-one">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-two">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-one">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-two">
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center fx-company-work">
-                                    <img src="./images/company6.svg" alt="image-company" class="image-company-work">
+                                    <img src="../images/company6.svg" alt="image-company" class="image-company-work">
                                     <h3 class="Poppins-SemiBold">Company Name Goes Here </h4>
                                 </div>
                                 <h4 class="Poppins-bold">Product Photography For Amjad Yo...</h4>
@@ -715,25 +716,25 @@
                             <div class="card-ourWork">
                                 <div class="slider-ourWork">
                                     <div class="slides-ourWork">
-                                        <img src="./images/work5.svg" alt="work" class="work-image">
-                                        <img src="./images/work4.svg" alt="work" class="work-image">
-                                        <img src="./images/work3.svg" alt="work" class="work-image">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
-                                        <img src="./images/work1.svg" alt="work" class="work-image">
+                                        <img src="../images/work5.svg" alt="work" class="work-image">
+                                        <img src="../images/work4.svg" alt="work" class="work-image">
+                                        <img src="../images/work3.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work1.svg" alt="work" class="work-image">
                                     </div>
                                     <div class="arrows-slider-ourWork">
-                                        <img src="./images/left-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/left-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-left">
-                                        <img src="./images/right-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/right-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-right">
                                     </div>
                                     <div class="liks-slider-ourWork">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-one">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-two">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-one">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-two">
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center fx-company-work">
-                                    <img src="./images/company6.svg" alt="image-company" class="image-company-work">
+                                    <img src="../images/company6.svg" alt="image-company" class="image-company-work">
                                     <h3 class="Poppins-SemiBold">Company Name Goes Here </h4>
                                 </div>
                                 <h4 class="Poppins-bold">Product Photography For Amjad Yo...</h4>
@@ -742,12 +743,12 @@
                             </div>
                         </div>
                         <div class="pagination">
-                            <button><img src="./images/arrow-left-pageination.svg" alt="pageination"></button>
+                            <button><img src="../images/arrow-left-pageination.svg" alt="pageination"></button>
                             <button class="active">1</button>
                             <button>2</button>
                             <button>3</button>
                             <button>4</button>
-                            <button><img src="./images/arrow-right-pageination.svg" alt="pageination"></button>
+                            <button><img src="../images/arrow-right-pageination.svg" alt="pageination"></button>
                         </div>
                     </div>
                     <div class="tab-pane" id="public-relations">
@@ -755,25 +756,25 @@
                             <div class="card-ourWork">
                                 <div class="slider-ourWork">
                                     <div class="slides-ourWork">
-                                        <img src="./images/work1.svg" alt="work" class="work-image">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
-                                        <img src="./images/work3.svg" alt="work" class="work-image">
-                                        <img src="./images/work4.svg" alt="work" class="work-image">
-                                        <img src="./images/work5.svg" alt="work" class="work-image">
+                                        <img src="../images/work1.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work3.svg" alt="work" class="work-image">
+                                        <img src="../images/work4.svg" alt="work" class="work-image">
+                                        <img src="../images/work5.svg" alt="work" class="work-image">
                                     </div>
                                     <div class="arrows-slider-ourWork">
-                                        <img src="./images/left-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/left-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-left">
-                                        <img src="./images/right-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/right-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-right">
                                     </div>
                                     <div class="liks-slider-ourWork">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-one">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-two">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-one">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-two">
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center fx-company-work">
-                                    <img src="./images/company6.svg" alt="image-company" class="image-company-work">
+                                    <img src="../images/company6.svg" alt="image-company" class="image-company-work">
                                     <h3 class="Poppins-SemiBold">Company Name Goes Here </h4>
                                 </div>
                                 <h4 class="Poppins-bold">Product Photography For Amjad Yo...</h4>
@@ -783,25 +784,25 @@
                             <div class="card-ourWork">
                                 <div class="slider-ourWork">
                                     <div class="slides-ourWork">
-                                        <img src="./images/work3.svg" alt="work" class="work-image">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
-                                        <img src="./images/work4.svg" alt="work" class="work-image">
-                                        <img src="./images/work5.svg" alt="work" class="work-image">
+                                        <img src="../images/work3.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work4.svg" alt="work" class="work-image">
+                                        <img src="../images/work5.svg" alt="work" class="work-image">
                                     </div>
                                     <div class="arrows-slider-ourWork">
-                                        <img src="./images/left-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/left-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-left">
-                                        <img src="./images/right-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/right-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-right">
                                     </div>
                                     <div class="liks-slider-ourWork">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-one">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-two">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-one">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-two">
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center fx-company-work">
-                                    <img src="./images/company6.svg" alt="image-company" class="image-company-work">
+                                    <img src="../images/company6.svg" alt="image-company" class="image-company-work">
                                     <h3 class="Poppins-SemiBold">Company Name Goes Here </h4>
                                 </div>
                                 <h4 class="Poppins-bold">Product Photography For Amjad Yo...</h4>
@@ -811,25 +812,25 @@
                             <div class="card-ourWork">
                                 <div class="slider-ourWork">
                                     <div class="slides-ourWork">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
-                                        <img src="./images/work1.svg" alt="work" class="work-image">
-                                        <img src="./images/work3.svg" alt="work" class="work-image">
-                                        <img src="./images/work4.svg" alt="work" class="work-image">
-                                        <img src="./images/work5.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work1.svg" alt="work" class="work-image">
+                                        <img src="../images/work3.svg" alt="work" class="work-image">
+                                        <img src="../images/work4.svg" alt="work" class="work-image">
+                                        <img src="../images/work5.svg" alt="work" class="work-image">
                                     </div>
                                     <div class="arrows-slider-ourWork">
-                                        <img src="./images/left-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/left-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-left">
-                                        <img src="./images/right-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/right-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-right">
                                     </div>
                                     <div class="liks-slider-ourWork">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-one">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-two">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-one">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-two">
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center fx-company-work">
-                                    <img src="./images/company6.svg" alt="image-company" class="image-company-work">
+                                    <img src="../images/company6.svg" alt="image-company" class="image-company-work">
                                     <h3 class="Poppins-SemiBold">Company Name Goes Here </h4>
                                 </div>
                                 <h4 class="Poppins-bold">Product Photography For Amjad Yo...</h4>
@@ -839,25 +840,25 @@
                             <div class="card-ourWork">
                                 <div class="slider-ourWork">
                                     <div class="slides-ourWork">
-                                        <img src="./images/work4.svg" alt="work" class="work-image">
-                                        <img src="./images/work5.svg" alt="work" class="work-image">
-                                        <img src="./images/work3.svg" alt="work" class="work-image">
-                                        <img src="./images/work1.svg" alt="work" class="work-image">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work4.svg" alt="work" class="work-image">
+                                        <img src="../images/work5.svg" alt="work" class="work-image">
+                                        <img src="../images/work3.svg" alt="work" class="work-image">
+                                        <img src="../images/work1.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
                                     </div>
                                     <div class="arrows-slider-ourWork">
-                                        <img src="./images/left-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/left-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-left">
-                                        <img src="./images/right-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/right-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-right">
                                     </div>
                                     <div class="liks-slider-ourWork">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-one">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-two">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-one">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-two">
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center fx-company-work">
-                                    <img src="./images/company6.svg" alt="image-company" class="image-company-work">
+                                    <img src="../images/company6.svg" alt="image-company" class="image-company-work">
                                     <h3 class="Poppins-SemiBold">Company Name Goes Here </h4>
                                 </div>
                                 <h4 class="Poppins-bold">Product Photography For Amjad Yo...</h4>
@@ -867,25 +868,25 @@
                             <div class="card-ourWork">
                                 <div class="slider-ourWork">
                                     <div class="slides-ourWork">
-                                        <img src="./images/work5.svg" alt="work" class="work-image">
-                                        <img src="./images/work4.svg" alt="work" class="work-image">
-                                        <img src="./images/work3.svg" alt="work" class="work-image">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
-                                        <img src="./images/work1.svg" alt="work" class="work-image">
+                                        <img src="../images/work5.svg" alt="work" class="work-image">
+                                        <img src="../images/work4.svg" alt="work" class="work-image">
+                                        <img src="../images/work3.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work1.svg" alt="work" class="work-image">
                                     </div>
                                     <div class="arrows-slider-ourWork">
-                                        <img src="./images/left-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/left-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-left">
-                                        <img src="./images/right-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/right-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-right">
                                     </div>
                                     <div class="liks-slider-ourWork">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-one">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-two">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-one">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-two">
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center fx-company-work">
-                                    <img src="./images/company6.svg" alt="image-company" class="image-company-work">
+                                    <img src="../images/company6.svg" alt="image-company" class="image-company-work">
                                     <h3 class="Poppins-SemiBold">Company Name Goes Here </h4>
                                 </div>
                                 <h4 class="Poppins-bold">Product Photography For Amjad Yo...</h4>
@@ -894,12 +895,12 @@
                             </div>
                         </div>
                         <div class="pagination">
-                            <button><img src="./images/arrow-left-pageination.svg" alt="pageination"></button>
+                            <button><img src="../images/arrow-left-pageination.svg" alt="pageination"></button>
                             <button class="active">1</button>
                             <button>2</button>
                             <button>3</button>
                             <button>4</button>
-                            <button><img src="./images/arrow-right-pageination.svg" alt="pageination"></button>
+                            <button><img src="../images/arrow-right-pageination.svg" alt="pageination"></button>
                         </div>
                     </div>
                     <div class="tab-pane" id="script-writing">
@@ -907,25 +908,25 @@
                             <div class="card-ourWork">
                                 <div class="slider-ourWork">
                                     <div class="slides-ourWork">
-                                        <img src="./images/work1.svg" alt="work" class="work-image">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
-                                        <img src="./images/work3.svg" alt="work" class="work-image">
-                                        <img src="./images/work4.svg" alt="work" class="work-image">
-                                        <img src="./images/work5.svg" alt="work" class="work-image">
+                                        <img src="../images/work1.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work3.svg" alt="work" class="work-image">
+                                        <img src="../images/work4.svg" alt="work" class="work-image">
+                                        <img src="../images/work5.svg" alt="work" class="work-image">
                                     </div>
                                     <div class="arrows-slider-ourWork">
-                                        <img src="./images/left-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/left-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-left">
-                                        <img src="./images/right-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/right-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-right">
                                     </div>
                                     <div class="liks-slider-ourWork">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-one">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-two">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-one">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-two">
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center fx-company-work">
-                                    <img src="./images/company6.svg" alt="image-company" class="image-company-work">
+                                    <img src="../images/company6.svg" alt="image-company" class="image-company-work">
                                     <h3 class="Poppins-SemiBold">Company Name Goes Here </h4>
                                 </div>
                                 <h4 class="Poppins-bold">Product Photography For Amjad Yo...</h4>
@@ -935,25 +936,25 @@
                             <div class="card-ourWork">
                                 <div class="slider-ourWork">
                                     <div class="slides-ourWork">
-                                        <img src="./images/work3.svg" alt="work" class="work-image">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
-                                        <img src="./images/work4.svg" alt="work" class="work-image">
-                                        <img src="./images/work5.svg" alt="work" class="work-image">
+                                        <img src="../images/work3.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work4.svg" alt="work" class="work-image">
+                                        <img src="../images/work5.svg" alt="work" class="work-image">
                                     </div>
                                     <div class="arrows-slider-ourWork">
-                                        <img src="./images/left-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/left-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-left">
-                                        <img src="./images/right-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/right-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-right">
                                     </div>
                                     <div class="liks-slider-ourWork">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-one">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-two">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-one">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-two">
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center fx-company-work">
-                                    <img src="./images/company6.svg" alt="image-company" class="image-company-work">
+                                    <img src="../images/company6.svg" alt="image-company" class="image-company-work">
                                     <h3 class="Poppins-SemiBold">Company Name Goes Here </h4>
                                 </div>
                                 <h4 class="Poppins-bold">Product Photography For Amjad Yo...</h4>
@@ -963,25 +964,25 @@
                             <div class="card-ourWork">
                                 <div class="slider-ourWork">
                                     <div class="slides-ourWork">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
-                                        <img src="./images/work1.svg" alt="work" class="work-image">
-                                        <img src="./images/work3.svg" alt="work" class="work-image">
-                                        <img src="./images/work4.svg" alt="work" class="work-image">
-                                        <img src="./images/work5.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work1.svg" alt="work" class="work-image">
+                                        <img src="../images/work3.svg" alt="work" class="work-image">
+                                        <img src="../images/work4.svg" alt="work" class="work-image">
+                                        <img src="../images/work5.svg" alt="work" class="work-image">
                                     </div>
                                     <div class="arrows-slider-ourWork">
-                                        <img src="./images/left-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/left-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-left">
-                                        <img src="./images/right-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/right-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-right">
                                     </div>
                                     <div class="liks-slider-ourWork">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-one">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-two">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-one">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-two">
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center fx-company-work">
-                                    <img src="./images/company6.svg" alt="image-company" class="image-company-work">
+                                    <img src="../images/company6.svg" alt="image-company" class="image-company-work">
                                     <h3 class="Poppins-SemiBold">Company Name Goes Here </h4>
                                 </div>
                                 <h4 class="Poppins-bold">Product Photography For Amjad Yo...</h4>
@@ -991,25 +992,25 @@
                             <div class="card-ourWork">
                                 <div class="slider-ourWork">
                                     <div class="slides-ourWork">
-                                        <img src="./images/work4.svg" alt="work" class="work-image">
-                                        <img src="./images/work5.svg" alt="work" class="work-image">
-                                        <img src="./images/work3.svg" alt="work" class="work-image">
-                                        <img src="./images/work1.svg" alt="work" class="work-image">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work4.svg" alt="work" class="work-image">
+                                        <img src="../images/work5.svg" alt="work" class="work-image">
+                                        <img src="../images/work3.svg" alt="work" class="work-image">
+                                        <img src="../images/work1.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
                                     </div>
                                     <div class="arrows-slider-ourWork">
-                                        <img src="./images/left-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/left-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-left">
-                                        <img src="./images/right-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/right-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-right">
                                     </div>
                                     <div class="liks-slider-ourWork">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-one">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-two">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-one">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-two">
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center fx-company-work">
-                                    <img src="./images/company6.svg" alt="image-company" class="image-company-work">
+                                    <img src="../images/company6.svg" alt="image-company" class="image-company-work">
                                     <h3 class="Poppins-SemiBold">Company Name Goes Here </h4>
                                 </div>
                                 <h4 class="Poppins-bold">Product Photography For Amjad Yo...</h4>
@@ -1019,25 +1020,25 @@
                             <div class="card-ourWork">
                                 <div class="slider-ourWork">
                                     <div class="slides-ourWork">
-                                        <img src="./images/work5.svg" alt="work" class="work-image">
-                                        <img src="./images/work4.svg" alt="work" class="work-image">
-                                        <img src="./images/work3.svg" alt="work" class="work-image">
-                                        <img src="./images/work2.svg" alt="work" class="work-image">
-                                        <img src="./images/work1.svg" alt="work" class="work-image">
+                                        <img src="../images/work5.svg" alt="work" class="work-image">
+                                        <img src="../images/work4.svg" alt="work" class="work-image">
+                                        <img src="../images/work3.svg" alt="work" class="work-image">
+                                        <img src="../images/work2.svg" alt="work" class="work-image">
+                                        <img src="../images/work1.svg" alt="work" class="work-image">
                                     </div>
                                     <div class="arrows-slider-ourWork">
-                                        <img src="./images/left-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/left-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-left">
-                                        <img src="./images/right-arrow-work.svg" alt="arrow-work"
+                                        <img src="../images/right-arrow-work.svg" alt="arrow-work"
                                             class="arrow-work arrow-work-right">
                                     </div>
                                     <div class="liks-slider-ourWork">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-one">
-                                        <img src="./images/like-card-work.svg" alt="like-card" class="like-card-two">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-one">
+                                        <img src="../images/like-card-work.svg" alt="like-card" class="like-card-two">
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center fx-company-work">
-                                    <img src="./images/company6.svg" alt="image-company" class="image-company-work">
+                                    <img src="../images/company6.svg" alt="image-company" class="image-company-work">
                                     <h3 class="Poppins-SemiBold">Company Name Goes Here </h4>
                                 </div>
                                 <h4 class="Poppins-bold">Product Photography For Amjad Yo...</h4>
@@ -1046,12 +1047,12 @@
                             </div>
                         </div>
                         <div class="pagination">
-                            <button><img src="./images/arrow-left-pageination.svg" alt="pageination"></button>
+                            <button><img src="../images/arrow-left-pageination.svg" alt="pageination"></button>
                             <button class="active">1</button>
                             <button>2</button>
                             <button>3</button>
                             <button>4</button>
-                            <button><img src="./images/arrow-right-pageination.svg" alt="pageination"></button>
+                            <button><img src="../images/arrow-right-pageination.svg" alt="pageination"></button>
                         </div>
                     </div>
                 </div>
@@ -1063,7 +1064,7 @@
         <div class="footer-container">
             <div class="footer-fx ">
                 <div class="footer-column footer-logo">
-                    <img onclick="window.location.href='index.html'" src="./images/logo.svg" alt="logo"
+                    <img onclick="window.location.href='index.html'" src="../images/logo.svg" alt="logo"
                         class="footer-logo">
                 </div>
                 <div class="footer-column footer-links fx-footer-sizes">
@@ -1077,10 +1078,10 @@
                 </div>
                 <div
                     class="d-flex align-items-center justify-content-center footer-column footer-icons fx-footer-sizes3">
-                    <a href=""><img src="./images/instgram-icon.svg" alt="instgram"></a>
-                    <a href=""><img src="./images/facebook-icon.svg" alt="facebook"></a>
-                    <a href=""><img src="./images/x-icon.svg" alt="twitter"></a>
-                    <a href=""><img src="./images/linkedin-icon.svg" alt="linkedin"></a>
+                    <a href=""><img src="../images/instgram-icon.svg" alt="instgram"></a>
+                    <a href=""><img src="../images/facebook-icon.svg" alt="facebook"></a>
+                    <a href=""><img src="../images/x-icon.svg" alt="twitter"></a>
+                    <a href=""><img src="../images/linkedin-icon.svg" alt="linkedin"></a>
                 </div>
             </div>
             <div class="copyrights">
@@ -1090,24 +1091,24 @@
     </footer>
 
     <!-- Bootstrap 5 JS-->
-    <script src="./js/bootstrap js/bootstrap.bundle.min.js"></script>
+    <script src="../js/bootstrap js/bootstrap.bundle.min.js"></script>
     <!-- icons JS -->
-    <script src="./icons/all.min.js"></script>
-    <script src="./icons/light.min.js"></script>
-    <script src="./js/jquery/jquery.min.js"></script>
-    <script src="./js/public.js"></script>
+    <script src="../icons/all.min.js"></script>
+    <script src="../icons/light.min.js"></script>
+    <script src="../js/jquery/jquery.min.js"></script>
+    <script src="../js/public.js"></script>
     <!-- Slick Slider -->
-    <script src="./js/slick slider/slick.min.js"></script>
-    <script src="./js/slick slider/slick-animation.min.js"></script>
-    <script src="./js/slick slider/slick.js"></script>
+    <script src="../js/slick slider/slick.min.js"></script>
+    <script src="../js/slick slider/slick-animation.min.js"></script>
+    <script src="../js/slick slider/slick.js"></script>
 
 
     <!--Navbar JS-->
-    <script src="./js/navbar-pages.js"></script>
+    <script src="../js/navbar-pages.js"></script>
     <!-- gsap Animation -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"></script>
-    <script src="./js/gsap.js"></script>
+    <script src="../js/gsap.js"></script>
 
     <script>
         $(document).ready(function () {
