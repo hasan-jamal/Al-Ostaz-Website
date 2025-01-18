@@ -122,3 +122,36 @@ $(document).ready(function () {
       });
   });
 });
+// Slider logos
+$(document).ready(function () {
+  $(".slider-logos").slick({
+    prevArrow: $(".right-logos"),
+    nextArrow: $(".left-logos"),
+    centerMode: true,
+    centerPadding: "0px",
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: false,
+    autoplaySpeed: 2000,
+    dots: false,
+    responsive: [
+      {
+        breakpoint: 1025, // Mobile landscape and larger
+        settings: {
+          slidesToShow: 1, // Number of slides to show at once
+          centerMode: true, // Optional: Keep centering on smaller screens
+          centerPadding: "0px", // Adjust padding if needed
+        },
+      },
+      {
+        breakpoint: 480, // Mobile portrait and smaller
+        settings: {
+          slidesToShow: 1, // Number of slides to show at once
+          centerMode: false, // Optional: Turn off centering for small screens
+          centerPadding: "0px", // Adjust padding if needed
+        },
+      },
+    ],
+  });
+});

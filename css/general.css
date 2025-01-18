@@ -60,10 +60,11 @@
 body {
   position: relative;
   overflow-x: hidden;
-  background-image: url(../images/background.svg);
+  background-image:url(../Images/back.png);
+  background-color: #080423 !important;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat:no-repeat;
 }
 button,a,.btn-hover{transition: 0.3s;}
 input:focus-visible{outline: none ;}
